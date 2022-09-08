@@ -68,6 +68,9 @@
      <height>22</height>
     </rect>
    </property>
+   <property name="currentIndex">
+    <number>-1</number>
+   </property>
    <item>
     <property name="text">
      <string>ФКБ ТЭК</string>
@@ -92,6 +95,9 @@
      <width>121</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="currentIndex">
+    <number>-1</number>
    </property>
    <item>
     <property name="text">
@@ -161,6 +167,45 @@
    </property>
    <property name="text">
     <string>Введите отчество:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Факультет:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>150</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Курс:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>150</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Группа</string>
    </property>
   </widget>
  </widget>
